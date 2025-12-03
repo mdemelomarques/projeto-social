@@ -26,19 +26,22 @@ main {
 }
 
 section#telefone {
-    position: absolute;
+    position: relative;
     background-image: url(../imagens/frame-iphone.png);
     background-repeat: no-repeat;
     width: 19.4375em;
     height: 39.1875em;
-    top: 50%;
+    top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
     
 }
 
 section#social{
-    float: right;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 30px;
+   
 }
 
 section#social img {
@@ -53,6 +56,12 @@ section#social img {
 section#social ul{
     list-style-type: none;
 }
+
+section#social li {
+    display: inline-block;
+}
+
+
 
 section#social img:hover {
     border: 2px solid rgba(255, 255, 255, 0.541);
